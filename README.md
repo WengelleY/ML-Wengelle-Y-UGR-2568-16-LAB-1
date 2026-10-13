@@ -1,5 +1,4 @@
-﻿# SECT-4451 — Lecture 2 Practical
-## Data Exploration & Foundational Math
+
 
 ### Part A — Inspect and Clean
 I capped the outlier of 50 study hours at 12 hours to reduce its influence while preserving the student's record. I filled missing study hours with the median and replaced the invalid attendance value of -10 with median attendance. The feature matrix shape is (100, 3). The features are `study_hours`, `attendance`, and `previous_mark`. The target is `final_score`.
